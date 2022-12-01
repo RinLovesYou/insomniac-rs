@@ -15,4 +15,6 @@ fn main() {
     }
 
     let toc = TocFile::new(toc).unwrap();
+
+    println!("toc: {toc:?}");
 }
