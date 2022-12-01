@@ -24,8 +24,7 @@ impl TocFile {
 
         let mut cursor = Cursor::new(data);
 
-        let _ = cursor.read_u32::<LittleEndian>()?; //unknown, possibly an identifier
-
+        let _ = cursor.read_u32::<LittleEndian>()?; //magic
         let length = cursor.read_i32::<LittleEndian>()?; //length of the compressed data
 
         let mut buf = vec![0u8; length as usize];
