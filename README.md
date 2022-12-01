@@ -35,7 +35,7 @@
   <p align="center">
     An effort to document everything about the insomniac engine
     <br />
-    <a href="https://github.com/RinLovesYou/insomniac-rs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RinLovesYou/insomniac-rs/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/RinLovesYou/insomniac-rs">View Demo</a>
